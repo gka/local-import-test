@@ -1,0 +1,21 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@datawrapper/utils': file:../../lib/utils
+
+dependencies:
+  '@datawrapper/utils': file:../../lib/utils
+
+packages:
+
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
+
+  file:../../lib/utils:
+    resolution: {directory: ../../lib/utils, type: directory}
+    name: '@datawrapper/utils'
+    version: 1.0.0
+    dependencies:
+      lodash: 4.17.21
+    dev: false
